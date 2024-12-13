@@ -3,9 +3,9 @@ import { FaShoppingCart } from "react-icons/fa";
 import "./index.css";
 
 const Header = () => (
-  <nav className="navbar fixed-top bg-white">
+  <nav className="navbar fixed-top bg-white" id="HomePage">
     <div className="container">
-      <a className="navbar-brand" href="#">
+      <a className="navbar-brand" href="#HomePage">
         <img
           src="https://stonepedia.in/wp-content/uploads/2024/10/logoo.png"
           alt="wesbite"
@@ -16,10 +16,14 @@ const Header = () => (
       <div className="d-flex m-auto">
         <ul className="nav justify-content-end flex-grow-1 pe-3">
           <li className="nav-item">
-            <a className="nav-link nav-item-lg">SHOP BY CATEGORY</a>
+            <a className="nav-link nav-item-lg" href="#HomePage">
+              SHOP BY CATEGORY
+            </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link nav-item-lg">PARTNER WITH US</a>
+            <a className="nav-link nav-item-lg" href="#HomePage">
+              PARTNER WITH US
+            </a>
           </li>
         </ul>
       </div>
