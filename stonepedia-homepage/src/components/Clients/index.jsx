@@ -60,7 +60,7 @@ const Clients = () => (
     <h1 className="clients-heading">Our Valuable Clients</h1>
     <div className="client-images-container">
       {ClientImages.map((item) => (
-        <img src={item.image} alt="client image" className="client-img" />
+        <img src={item.image} alt="client" className="client-img" />
       ))}
     </div>
   </div>

@@ -8,7 +8,7 @@ const Header = () => (
       <a className="navbar-brand" href="#">
         <img
           src="https://stonepedia.in/wp-content/uploads/2024/10/logoo.png"
-          alt="wesbite logo"
+          alt="wesbite"
           width="190"
           height="50"
         />
@@ -16,14 +16,10 @@ const Header = () => (
       <div className="d-flex m-auto">
         <ul className="nav justify-content-end flex-grow-1 pe-3">
           <li className="nav-item">
-            <a className="nav-link nav-item-lg" href="#">
-              SHOP BY CATEGORY
-            </a>
+            <a className="nav-link nav-item-lg">SHOP BY CATEGORY</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link nav-item-lg" href="#">
-              PARTNER WITH US
-            </a>
+            <a className="nav-link nav-item-lg">PARTNER WITH US</a>
           </li>
         </ul>
       </div>
